@@ -212,7 +212,7 @@
 .titulo-paragrafo-e-logo-do-salão{
     display: block;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 .titulo-e-paragrafo-main{
@@ -234,7 +234,7 @@
     width: 286px;
     height: 385px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 .logo-main{
@@ -244,11 +244,15 @@
 
 /* Textos sobre a barbearia */
 
+.texto-sobre-a-barbearia{
+    margin-top: 0px;
+}
+
 .conteiner-texto{
-    width: 350px;
+    width: 320px;
     height: 560px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 80px;
     background-color: rgba(90, 89, 89, 0.164);
 }
 
@@ -336,7 +340,8 @@
 
 .titulo-footer{
     font-size: 10px;
-    margin-left: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 
