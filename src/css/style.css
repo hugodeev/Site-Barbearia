@@ -270,7 +270,8 @@ body{
     width: 60px;
     height: 60px;
     border-radius: 15px;
-    margin-top: 20px;background-color: rgb(21, 8, 136);
+    margin-top: 20px;
+    background-color: rgb(21, 8, 136);
 }
 
 .paragrafo-logo-redes-sociais{
@@ -301,5 +302,5 @@ body{
     font-size: 14px;
     color: rgb(170, 169, 167);
     margin-top: 7px;
-    font-family: monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
