@@ -211,8 +211,8 @@
     display: flex; /* Exibe o botão hambúrguer */
     flex-direction: column;
     justify-content: space-between;
-    width: 25px;
-    height: 20px;
+    width: 23px;
+    height: 18px;
     cursor: pointer;
     margin-top: 15px;
     margin-right: 20px;
@@ -237,7 +237,7 @@
     width: 100%;
     padding: 10px 0;
     z-index: 10;
-    width: 250px;
+    width: 220px;
     height: 1000px; 
 }
 
@@ -247,11 +247,10 @@
 
 .menu-header-celulares li {
     margin: 10px 0;
-    margin-left: 40px;
+    margin-left: 35px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     margin-top: 50px;
-
 }
 
 /* Conteúdo do site */
@@ -259,12 +258,13 @@
 .titulo-paragrafo-e-logo-do-salão{
     display: block;
     justify-content: space-between;
-    margin-top: 25px;
+    margin-top: 50px;
 }
 
 .titulo-e-paragrafo-main{
     margin-left: 7px;
     margin-top: 0px;
+    
 }
 
 .titulo-do-main{
@@ -321,7 +321,7 @@
 
 .titulo-serviços{
     font-size: 25px;
-    padding-top: 50px;
+    padding-top: 80px;
     margin-left: 30px;
 }
 
@@ -374,6 +374,7 @@
 .titulo-contato{
     font-size: 25px;
     margin-left: 30px;
+    padding-top: 80px;
 }
 
 .layout-logo-redes-sociais{
