@@ -6,6 +6,7 @@
     <title>Barbearia do Andry</title>
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="src/css/responsividade.css">
+    <link rel="shortcut icon" href="src/img/icons-designer/icon-contato.png" type="image/x-icon">
 </head>
 <body>
 
@@ -19,7 +20,21 @@
 
                 <h2 class="titulo-header">Barbearia do Andry</h2>
 
-                    <ul class="menu-header">
+                            <!-- Botão de menu para mobile -->
+            <div class="menu-toggle" id="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+
+            <!-- Menu principal -->
+            <ul class="menu-header-celulares" id="menu-header">
+                <li><a href="#Sobre" class="itens-do-menu">Sobre</a></li>
+                <li><a href="#Serviços" class="itens-do-menu">Serviços</a></li>
+                <li><a href="#Contato" class="itens-do-menu">Contato</a></li>
+            </ul>
+
+                    <ul class="menu-header-pcs">
                         <li><a href="#Sobre" class="itens-do-menu">Sobre</a></li>
                         <li><a href="#Serviços" class="itens-do-menu">Serviços</a></li>
                         <li><a href="#Contato" class="itens-do-menu">Contato</a></li>
@@ -85,6 +100,12 @@
                     </div>
 
                     <div class="conteiner-serviços">
+                        <img src="src/img/icons-designer/imagem-para-corte-narvalhado.jpg" class="imagem-serviços" alt="">
+                        <h3 class="descrição-serviços">Narvalhado: 20 reais</h3>
+                        <input type="button" value="Agende Agora" class="btn-agendar-serviços">
+                    </div>
+
+                    <div class="conteiner-serviços">
                         <img src="src/img/icons-designer/imagem-para-barba.jpg" class="imagem-serviços" alt="">
                         <h3 class="descrição-serviços"> Barba: 10 reais</h3>
                         <input type="button" value="Agende Agora" class="btn-agendar-serviços">
@@ -98,9 +119,10 @@
 
                     <div class="conteiner-serviços">
                         <img src="src/img/icons-designer/imagem-para-barba.jpg" class="imagem-serviços" alt="">
-                        <h3 class="descrição-serviços"> Completo: 30 reais</h3>
+                        <h3 class="descrição-serviços"> Completo: 35 reais</h3>
                         <input type="button" value="Agende Agora" class="btn-agendar-serviços">
                     </div>
+                    
                 </div>
 
                 
@@ -117,7 +139,7 @@
                     </div>
 
                      <div class="conteiner-perfil-contato">
-                        <img src="src/img/imagem-barbeiro/" class="img-perfil-contato" alt="imagem perfil contato">
+                        <img src="src/img/imagem-barbeiro/barbeiro.jpg" class="img-perfil-contato" alt="imagem perfil contato">
                      </div>
 
                     <div class="layout-logo-redes-sociais">
@@ -146,7 +168,7 @@
     <footer class="responsividade-do-final-do-site">
 
         <div>
-            <h1 class="titulo-footer">Criação: Barbearia do Andry - Desenvolvedor do <Section></Section>ite: Victor Hugo Matias Salustino - Contato: +55 83 987262542.</h1>
+            <h1 class="titulo-footer">Criação: Barbearia do Andry - Desenvolvedor do Site: Victor Hugo Matias Salustino - Contato: +55 83 987262542.</h1>
         </div>
 
     </footer>
