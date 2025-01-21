@@ -1,0 +1,348 @@
+
+/* responsividade para tablets e celulares */
+
+
+@media screen and (max-width: 890px){
+
+/* Cabeçalho do site */
+
+.titulo-header{
+    margin-left: 20px;
+    padding: 13px;
+    font-size: 24px;
+}
+
+.menu-header{
+    text-decoration: none;
+    list-style: none;
+    display: flex;  
+    gap: 40px;
+    margin-right: 15px;
+    font-size: 17px;
+    padding: 20px;
+}
+
+.img-logo-header{
+    display: none;
+}
+
+/* Conteúdo do site */
+
+.responsividade-do-conteudo{
+    width: 100%;
+}
+
+.titulo-paragrafo-e-logo-do-salão{
+    display: block;
+    margin-top: 80px;
+}
+
+.titulo-e-paragrafo-main{
+    margin-top: 17px;
+    margin-left: 30px;
+}
+
+.paragrafo-do-main{
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    display: block;
+    background-color: rgba(14, 61, 148, 0.808);
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 560px;
+}
+
+.img-do-salão-main{
+    background-color: rgba(14, 61, 148, 0.808);
+    width: 455px;
+    height: 545px;
+    border-radius:  50%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.logo-main{
+    width: 450px;
+    height: 540px;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+
+/* Textos sobre a barbearia */
+
+.texto-sobre-a-barbearia{
+    display: block;
+}
+
+.conteiner-texto{
+    width: 670px;
+    height: 430px;
+    padding: 15px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.titulo-como-surgiu{
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 26px;
+}
+
+.texto-sobre{
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+/* Serviços */
+
+.layout-serviços{
+    display: block; 
+    margin: auto;
+
+}
+
+.titulo-serviços{
+    font-size: 33px;
+    padding-top: 130px;
+    margin-left: 30px;
+}
+
+.paragrafo-serviços{
+    font-size: 26px;
+    margin-left: 30px;
+}
+
+.conteiner-serviços{
+    width: 540px;
+    height: 680px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.imagem-serviços{
+    width: 522px;
+    height: 480px;
+    padding: 10px;
+}
+
+.descrição-serviços{
+    font-size: 27px;
+    margin-top: 20px;
+}
+
+.btn-agendar-serviços{
+    width: 508px;
+    height: 50px;
+    margin: auto;
+    margin-left: 15px;
+    margin-top: 26px;
+    font-size: 23px;
+}
+
+
+/* Contato */
+
+.layout-contato{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 100px;
+    justify-content: space-between;
+    height: 880px;
+}
+
+.titulo-contato{
+    font-size: 33px;
+    margin-left: 30px;
+}
+
+.conteiner-perfil-contato{
+    display: none;
+}
+
+.img-perfil-contato{
+    display: none;
+}
+
+/* marca de criaçãodo site: footer */
+
+.titulo-footer{
+    font-size: 11px;
+}
+}
+
+@media screen and (max-width: 600px){
+
+
+/* Cabeçalho do site */
+
+.cabeçalho-header{
+    height: 50px;
+}
+
+.titulo-header-e-menu{
+    display:  flex;
+    color: rgba(255, 255, 255, 0.904);
+    justify-content: space-between;
+    width: 1300px;
+    margin: auto;
+}
+
+.titulo-header{
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+.menu-header{
+    text-decoration: none;
+    list-style: none;
+    display: none;  
+    gap: 20px;
+    margin-right: 0px;
+    font-size: 17px;
+    padding: 20px; 
+}
+
+/* Conteúdo do site */
+
+.titulo-paragrafo-e-logo-do-salão{
+    display: block;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.titulo-e-paragrafo-main{
+    margin-left: 7px;
+    margin-top: 0px;
+}
+
+.titulo-do-main{
+    font-size: 23px;
+    padding: 10px;
+}
+
+.paragrafo-do-main{
+    font-size: 15px;
+    width: 261px;
+}
+
+.img-do-salão-main{
+    width: 286px;
+    height: 385px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.logo-main{
+    width: 282px;
+    height: 382px;
+}
+
+/* Textos sobre a barbearia */
+
+.conteiner-texto{
+    width: 350px;
+    height: 560px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.titulo-como-surgiu{
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+.texto-sobre{
+    font-size: 15px;
+}
+
+/* Serviços */
+
+.titulo-serviços{
+    font-size: 25px;
+    padding-top: 130px;
+    margin-left: 30px;
+}
+
+.paragrafo-serviços{
+    font-size: 17px;
+    margin-left: 30px;
+}
+
+.conteiner-serviços{
+    width: 340px;
+    height: 540px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.imagem-serviços{
+    width: 322px;
+    height: 380px;
+    padding: 10px;
+}
+
+.descrição-serviços{
+    font-size: 19px;
+    margin-top: 15px;
+}
+
+.btn-agendar-serviços{
+    width: 305px;
+    height: 40px;
+    margin: auto;
+    margin-left: 15px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+/* Contato */
+
+.layout-contato{
+    display: block;
+    height: 880px;
+    margin-left: 0px;
+    margin-top: 60px;
+}
+
+.img-icon-contato{
+    width: 240px;
+    margin-left: 75px;
+}
+
+.titulo-contato{
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.layout-logo-redes-sociais{
+    display: block;
+    margin-left: 60px;
+    margin-right: 0px;
+    margin-top: 50px;
+}
+
+/* marca de criaçãodo site: footer */
+
+.responsividade-do-final-do-site{
+    background-color: rgb(12, 55, 136);
+    width: 100%;
+    height: 40px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-footer{
+    font-size: 10px;
+    margin-left: 15px;
+}
+
+
+
+
+}

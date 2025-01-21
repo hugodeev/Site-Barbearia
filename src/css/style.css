@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color:  rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Sobre{
+  padding-top: 10px;
+}
+
+/* Layout do site*/
+
+.responsividade-do-conteudo{
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    width: 1300px;
+    margin-top: 40px;
+}
+
+/* Cabeçalho do site */
+
+.cabeçalho-header{
+    background-color: rgb(12, 55, 136);
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    display: flex;
+}
+
+.titulo-header-e-menu{
+    display:  flex;
+    color: rgba(255, 255, 255, 0.904);
+    justify-content: space-between;
+    width: 1300px;
+    margin: auto;
+}
+
+.titulo-header{
+    margin-left: 30px;
+    padding: 13px;
+    font-size: 27px;
+}
+
+.menu-header{
+    text-decoration: none;
+    list-style: none;
+    display: flex;  
+    gap: 70px;
+    margin-right: 0px;
+    font-size: 17px;
+    padding: 20px;
+}
+
+.itens-do-menu{
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.itens-do-menu:hover{
+    color: rgb(199, 195, 195);
+}
+
+.conteiner-logo-header{
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.img-logo-header{
+    width: 70px;
+    height: 70px;
+    margin-right: 40px;
+}
+
+/* Conteúdo do site */
+
+.titulo-paragrafo-e-logo-do-salão{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 140px;
+}
+
+.titulo-e-paragrafo-main{
+    margin-left: 50px;
+    margin-top: 170px;
+}
+
+.titulo-do-main{
+    font-size:45px;
+    color: #ebebf1e1;
+    padding: 10px;
+}
+
+.paragrafo-do-main{
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    display: block;
+    background-color: rgba(14, 61, 148, 0.808);
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.img-do-salão-main{
+    background-color: rgba(14, 61, 148, 0.808);
+    width: 405px;
+    height: 505px;
+    margin-right: 100px;
+    margin-top: 20px;
+    border-radius:  50%;
+}
+
+.logo-main{
+    width: 400px;
+    height: 500px;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+/* Textos sobre a barbearia */
+
+.texto-sobre-a-barbearia{
+    display: flex;
+    margin-top: 140px;
+    justify-content: space-between;
+}
+
+.conteiner-texto{
+    width: 600px;
+    height: 380px;
+    background-color: rgba(68, 68, 68, 0.164);
+    margin-left: 43px;
+    margin-right: 27px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.titulo-como-surgiu{
+    color: rgb(197, 199, 201);
+    margin-left: 5px;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.texto-sobre{
+    color: rgb(171, 171, 172);
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+/* Serviços */
+
+.titulo-serviços{
+    color: rgb(171, 171, 172); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    padding-top: 100px;
+    margin-left: 43px;
+}
+
+.paragrafo-serviços{
+    color: rgb(171, 171, 172); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    font-size: 25px;
+    margin-left: 43px;
+}
+
+.layout-serviços{
+    margin-top: 80px;
+    margin-left: 43px;
+    display: flex;
+    gap: 30px;  
+}
+
+.conteiner-serviços{
+    background-color: rgb(20, 20, 20);
+    width: 286px;
+    height: 385px;
+    border-radius: 15px;
+}
+
+.imagem-serviços{
+    width: 280px;
+    height: 280px;
+    padding: 2px;
+    border-radius:15px 15px 0px 0px;
+}
+
+.descrição-serviços{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 13px;
+    margin-top: 5px;
+    color: rgb(171, 171, 172); 
+}
+
+.btn-agendar-serviços{
+    width: 260px;
+    height: 35px;
+    margin-left: 13px;
+    margin-top: 15px;
+    border: none;
+    background-color: rgb(12, 55, 136);
+    border-radius: 10px;
+    color: rgb(212, 209, 209); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.btn-agendar-serviços:hover{
+    background-color: rgb(15, 38, 88);
+}
+
+/* Contato */
+
+.titulo-contato{
+    color: rgb(171, 171, 172); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    padding-top: 100px;
+    margin-left: 43px;
+}
+
+.layout-contato{
+    display: flex;
+    margin-top: 0px;
+    margin-left: 100px;
+    justify-content: space-between;
+    height: 540px;
+}
+
+.img-icon-contato{
+    width: 280px;
+}
+
+.conteiner-perfil-contato{
+    width: 200px;
+    height: 200px;
+    background-color: #0C3788;
+    color: #ebebf1e1;
+    border-radius: 50%;
+    margin-top: 145px;
+}
+
+.img-perfil-contato{
+    display: block;
+}
+
+.layout-logo-redes-sociais{
+    display: block;
+    margin-left: 45px;
+    margin-top: 120px;
+    margin-right: 100px;
+}
+
+.layout-logo-redes-sociais-e-paragrafo{
+    display: flex;
+}
+
+.logo-redes-sociais{
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    margin-top: 20px;background-color: rgb(21, 8, 136);
+}
+
+.paragrafo-logo-redes-sociais{
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 21px;
+    margin-left: 5px;
+    background-color: rgb(21, 8, 136);
+    padding-left: 15px;
+    padding-top: 14px;
+    border-radius: 0px 5px 5px 0px;
+    height: 43px;
+    width: 180px;
+}
+
+/* marca de criaçãodo site: footer */
+
+.responsividade-do-final-do-site{
+    background-color: rgb(12, 55, 136);
+    width: 100%;
+    height: 30px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-footer{
+    font-size: 14px;
+    color: rgb(170, 169, 167);
+    margin-top: 7px;
+    font-family: monospace;
+}
