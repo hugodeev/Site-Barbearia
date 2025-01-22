@@ -43,7 +43,7 @@
             </div>
             
             <div class="conteiner-logo-header">
-                <img src="src/img/icons-designer/inicial_uma_tesoura.png" class="img-logo-header" alt="logo header">
+                <a href="404.html"><img src="src/img/icons-designer/inicial_uma_tesoura.png" class="img-logo-header" alt="logo header"></a>
             </div>
 
 
@@ -71,6 +71,7 @@
                 </div>
 
                 <div class="texto-sobre-a-barbearia">
+
                     <div class="conteiner-texto">
                         <h1 class="titulo-como-surgiu">Como Surgiu?</h1>
                         <P class="texto-sobre">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum laboriosam officiis doloremque. Iure quidem fugiat rerum, modi neque debitis, dolor dolorem reprehenderit officiis beatae dolorum officia nemo ea, hic quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, quisquam repudiandae provident non voluptatem blanditiis exercitationem accusamus. Magnam optio doloribus necessitatibus quaerat ullam unde, itaque facere quod incidunt quos corrupti. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum laboriosam officiis doloremque. Iure quidem fugiat rerum, modi neque debitis, dolor dolorem reprehenderit officiis beatae dolorum officia nemo ea, hic quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, quisquam repudiandae provident non voluptatem blanditiis exercitationem accusamus. Magnam optio doloribus necessitatibus quaerat ullam unde, itaque facere quod incidunt quos corrupti. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum laboriosam officiis doloremque. Iure quidem fugiat rerum, modi.</P>
@@ -92,35 +93,168 @@
                 <p class="paragrafo-serviços">Agende Agora Seu Serviço:</p>
 
                 <div class="layout-serviços">
+                    <div class="layout-serviços">
 
-                    <div class="conteiner-serviços">
-                        <img src="src/img/icons-designer/imagem-para-area-de-cabelo.jpg" class="imagem-serviços" alt="">
-                        <h3 class="descrição-serviços">Corte Normal: 15 reais</h3>
-                        <input type="button" value="Agende Agora" class="btn-agendar-serviços">
-                    </div>
+                        <div class="conteiner-serviços">
+                            <img src="src/img/icons-designer/imagem-para-area-de-cabelo.jpg" class="imagem-serviços" alt="">
+                            <h3 class="descrição-serviços">Corte Normal: 15 reais</h3>
+                            <input type="button" value="Agende Agora" class="btn-agendar-serviços" id="btnAgendar1">
+                        </div>
+                    
+                        <form action="" id="formularioAgendamento1" style="display: none;">
+                            <div class="conteiner-formulario">
+                                <div class="layout-fechar-titulo-formulario">
+                                    <button type="button" class="btn-fechar-formulario" id="btnFecharForm1">X</button>
+                                    <h2 class="titulo-formulario">Preencher:</h2>
+                                </div>
+                                <div class="conteiner-inputs">
 
-                    <div class="conteiner-serviços">
-                        <img src="src/img/icons-designer/imagem-para-corte-narvalhado.jpg" class="imagem-serviços" alt="">
-                        <h3 class="descrição-serviços">Narvalhado: 20 reais</h3>
-                        <input type="button" value="Agende Agora" class="btn-agendar-serviços">
-                    </div>
+                                    <p><input type="text" placeholder="Nome" class="input-text-number"></p>
 
-                    <div class="conteiner-serviços">
-                        <img src="src/img/icons-designer/imagem-para-barba.jpg" class="imagem-serviços" alt="">
-                        <h3 class="descrição-serviços"> Barba: 10 reais</h3>
-                        <input type="button" value="Agende Agora" class="btn-agendar-serviços">
-                    </div>
+                                    <p><input type="tel" placeholder="Telefone" class="input-text-number"></p>
 
-                    <div class="conteiner-serviços">
-                        <img src="src/img/icons-designer/imagem-para-sobrancelha.jpg" class="imagem-serviços" alt="">
-                        <h3 class="descrição-serviços"> Sobrancelha: 5 reais</h3>
-                        <input type="button" value="Agende Agora" class="btn-agendar-serviços">
-                    </div>
+                                    <p><input type="time" class="input-horario"></p>
 
-                    <div class="conteiner-serviços">
-                        <img src="src/img/icons-designer/imagem-para-barba.jpg" class="imagem-serviços" alt="">
-                        <h3 class="descrição-serviços"> Completo: 35 reais</h3>
-                        <input type="button" value="Agende Agora" class="btn-agendar-serviços">
+                                    <p><input type="date" class="input-data"></p>
+
+                                    <p>
+                                        <div class="caixa-de-input-checkbox">
+                                            <input type="checkbox" name="Manhã" class="input-checkbox-manha">
+                                            <label for="Manhã" class="label-checkbox">Manhã</label>
+                                            <input type="checkbox" name="Tarde" class="input-checkbox-tarde">
+                                            <label for="Tarde" class="label-checkbox">Tarde</label>
+                                        </div>
+                                    </p>
+
+                                    <p>
+                                        <input type="button" value="Agendar Agora" class="input-botao">
+                                    </p>
+                                </div>
+                            </div>
+                        </form>
+                    
+                        <div class="conteiner-serviços">
+                            <img src="src/img/icons-designer/imagem-para-corte-narvalhado.jpg" class="imagem-serviços" alt="">
+                            <h3 class="descrição-serviços">Navalhado: 20 reais</h3>
+                            <input type="button" value="Agende Agora" class="btn-agendar-serviços" id="btnAgendar2">
+                        </div>
+                    
+                        <form action="" id="formularioAgendamento2" style="display: none;">
+                            <div class="conteiner-formulario">
+                                <div class="layout-fechar-titulo-formulario">
+                                    <button type="button" class="btn-fechar-formulario" id="btnFecharForm2">X</button>
+                                    <h2 class="titulo-formulario">Preencher:</h2>
+                                </div>
+                                <div class="conteiner-inputs">
+                                    <p><input type="text" placeholder="Nome" class="input-text-number"></p>
+                                    <p><input type="tel" placeholder="Telefone" class="input-text-number"></p>
+                                    <p><input type="time" class="input-horario"></p>
+                                    <p><input type="date" class="input-data"></p>
+                                    
+                                    <p>
+                                        <div class="caixa-de-input-checkbox">
+                                            <input type="checkbox" name="Manhã" class="input-checkbox-manha">
+                                            <label for="Manhã" class="label-checkbox">Manhã</label>
+                                            <input type="checkbox" name="Tarde" class="input-checkbox-tarde">
+                                            <label for="Tarde" class="label-checkbox">Tarde</label>
+                                        </div>
+                                    </p>
+                                    <p><input type="button" value="Agendar Agora" class="input-botao"></p>
+                                </div>
+                            </div>
+                        </form>
+                    
+                        <div class="conteiner-serviços">
+                            <img src="src/img/icons-designer/imagem-para-barba.jpg" class="imagem-serviços" alt="">
+                            <h3 class="descrição-serviços">Barba: 10 reais</h3>
+                            <input type="button" value="Agende Agora" class="btn-agendar-serviços" id="btnAgendar3">
+                        </div>
+                    
+                        <form action="" id="formularioAgendamento3" style="display: none;">
+                            <div class="conteiner-formulario">
+                                <div class="layout-fechar-titulo-formulario">
+                                    <button type="button" class="btn-fechar-formulario" id="btnFecharForm3">X</button>
+                                    <h2 class="titulo-formulario">Preencher:</h2>
+                                </div>
+                                <div class="conteiner-inputs">
+                                    <p><input type="text" placeholder="Nome" class="input-text-number"></p>
+                                    <p><input type="tel" placeholder="Telefone" class="input-text-number"></p>
+                                    <p><input type="time" class="input-horario"></p>
+                                    <p><input type="date" class="input-data"></p>
+                                    
+                                    <p>
+                                        <div class="caixa-de-input-checkbox">
+                                            <input type="checkbox" name="Manhã" class="input-checkbox-manha">
+                                            <label for="Manhã" class="label-checkbox">Manhã</label>
+                                            <input type="checkbox" name="Tarde" class="input-checkbox-tarde">
+                                            <label for="Tarde" class="label-checkbox">Tarde</label>
+                                        </div>
+                                    </p>
+                                    <p><input type="button" value="Agendar Agora" class="input-botao"></p>
+                                </div>
+                            </div>
+                        </form>
+                    
+                        <div class="conteiner-serviços">
+                            <img src="src/img/icons-designer/imagem-para-sobrancelha.jpg" class="imagem-serviços" alt="">
+                            <h3 class="descrição-serviços">Sobrancelha: 5 reais</h3>
+                            <input type="button" value="Agende Agora" class="btn-agendar-serviços" id="btnAgendar4">
+                        </div>
+                    
+                        <form action="" id="formularioAgendamento4" style="display: none;">
+                            <div class="conteiner-formulario">
+                                <div class="layout-fechar-titulo-formulario">
+                                    <button type="button" class="btn-fechar-formulario" id="btnFecharForm4">X</button>
+                                    <h2 class="titulo-formulario">Preencher:</h2>
+                                </div>
+                                <div class="conteiner-inputs">
+                                    <p><input type="text" placeholder="Nome" class="input-text-number"></p>
+                                    <p><input type="tel" placeholder="Telefone" class="input-text-number"></p>
+                                    <p><input type="time" class="input-horario"></p>
+                                    <p><input type="date" class="input-data"></p>                      
+                                    <p>
+                                        <div class="caixa-de-input-checkbox">
+                                            <input type="checkbox" name="Manhã" class="input-checkbox-manha">
+                                            <label for="Manhã" class="label-checkbox">Manhã</label>
+                                            <input type="checkbox" name="Tarde" class="input-checkbox-tarde">
+                                            <label for="Tarde" class="label-checkbox">Tarde</label>
+                                        </div>
+                                    </p>
+                                    <p><input type="button" value="Agendar Agora" class="input-botao"></p>
+                                </div>
+                            </div>
+                        </form>
+                    
+                        <div class="conteiner-serviços">
+                            <img src="src/img/icons-designer/imagem-para-barba.jpg" class="imagem-serviços" alt="">
+                            <h3 class="descrição-serviços">Completo: 35 reais</h3>
+                            <input type="button" value="Agende Agora" class="btn-agendar-serviços" id="btnAgendar5">
+                        </div>
+                    
+                        <form action="" id="formularioAgendamento5" style="display: none;">
+                            <div class="conteiner-formulario">
+                                <div class="layout-fechar-titulo-formulario">
+                                    <button type="button" class="btn-fechar-formulario" id="btnFecharForm5">X</button>
+                                    <h2 class="titulo-formulario">Preencher:</h2>
+                                </div>
+                                <div class="conteiner-inputs">
+                                    <p><input type="text" placeholder="Nome" class="input-text-number"></p>
+                                    <p><input type="tel" placeholder="Telefone" class="input-text-number"></p>
+                                    <p><input type="time" class="input-horario"></p>
+                                    <p><input type="date" class="input-data"></p>
+                                    
+                                    <p>
+                                        <div class="caixa-de-input-checkbox">
+                                            <input type="checkbox" name="Manhã" class="input-checkbox-manha">
+                                            <label for="Manhã" class="label-checkbox">Manhã</label>
+                                            <input type="checkbox" name="Tarde" class="input-checkbox-tarde">
+                                            <label for="Tarde" class="label-checkbox">Tarde</label>
+                                        </div>
+                                    </p>
+                                    <p><input type="button" value="Agendar Agora" class="input-botao"></p>
+                                </div>
+                            </div>
+                        </form>
                     </div>
                     
                 </div>

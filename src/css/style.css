@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -170,7 +171,7 @@ body{
     color: rgb(171, 171, 172); 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
-    padding-top: 100px;
+    padding-top: 140px;
     margin-left: 43px;
 }
 
@@ -183,8 +184,9 @@ body{
 }
 
 .layout-serviços{
-    margin-top: 80px;
-    margin-left: 43px;
+    margin-top: 35px;
+    margin-left: 30px;
+    margin-right: 5px;
     display: flex;
     gap: 30px;  
     overflow-x: auto;
@@ -192,7 +194,6 @@ body{
     padding-bottom: 20px;
     scrollbar-width: none;
 }
-
 
 .conteiner-serviços{
     background-color: rgb(20, 20, 20);
@@ -230,6 +231,123 @@ body{
 
 .btn-agendar-serviços:hover{
     background-color: rgb(15, 38, 88);
+}
+
+/* Conteiner Formulario */
+
+#formularioAgendamento1, #formularioAgendamento2, #formularioAgendamento3, #formularioAgendamento4,#formularioAgendamento5{
+    position: fixed;
+    top: 20%;
+    left: 32%;
+    margin: auto;
+    transform: translate(-50)
+}
+
+.conteiner-formulario{
+    background-color: rgb(20, 20, 20);
+    width: 500px;
+    height: 430px;
+    border-radius: 15px;
+    
+}
+
+.layout-fechar-titulo-formulario{
+    display: flex;
+    background-color: #0e347a;
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
+    justify-content: space-between;
+}
+
+.conteiner-inputs{
+    margin-left: 25px;
+}
+
+.btn-fechar-formulario{
+    background-color: #0e347a;
+    border: none;
+    color: rgb(187, 187, 189); 
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.titulo-formulario{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    margin-right: 210px ;
+    color: rgb(187, 187, 189); 
+    padding: 5px;
+}
+
+.input-text-number{
+    width: 433px;
+    height: 35px;
+    margin-top: 30px;
+    padding-left: 10px;
+    border-radius: 2px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.input-horario{
+    width: 120px;
+    height: 30px;
+    margin-top: 30px;
+    padding-left: 10px;
+    border-radius: 2px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+
+.input-data{
+    width: 120px;
+    padding-left: 10px;
+    margin-top: 20px;
+    height: 25px;
+    border-radius: 2px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+
+.input-checkbox-tarde{
+    margin-left: 40px;
+}
+
+.label-checkbox{
+    color: rgb(187, 187, 189); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.caixa-de-input-checkbox{
+    background-color: #2e2f31;
+    margin-top: 20px;
+    padding: 5px;
+    width: 190px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.input-botao{
+    width: 441px;
+    height: 40px;
+    margin-left: 0px;
+    margin-top: 30px;
+    border: none;
+    background-color: rgb(12, 55, 136);
+    border-radius: 10px;
+    color: rgb(212, 209, 209); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.input-botao:hover{
+    background-color: rgb(14, 40, 87);
 }
 
 /* Contato */
